@@ -49,6 +49,16 @@ export default function TOC() {
           Kambaz
         </a>
       </li>
+      <li className="nav-item">
+        <a
+          id="wd-github"
+          href="https://github.com/vaishalisingh04/kambaz-react-web-app-cs5610-sp25-assignment4"
+          className="nav-link"
+          target="_blank"
+        >
+          My GitHub
+        </a>
+      </li>
     </ul>
   );
 }
