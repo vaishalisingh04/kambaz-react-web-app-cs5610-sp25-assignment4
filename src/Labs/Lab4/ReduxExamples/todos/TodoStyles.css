@@ -1,0 +1,96 @@
+/* TodoStyles.css */
+.todo-container {
+    max-width: 100%;
+    font-family: Arial, sans-serif;
+    margin-left: 0;
+}
+
+.todo-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.todo-form {
+    display: flex;
+    margin-bottom: 20px;
+    border-top: 1px solid #dee2e6;
+    border-bottom: 1px solid #dee2e6;
+    padding: 15px 0;
+}
+
+.todo-input {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.update-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #ffc107; /* Yellow color for Update button */
+    color: #000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+    display: inline-block; /* Always show */
+}
+
+.add-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block; /* Always show */
+}
+
+.todo-list {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+}
+
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.todo-text {
+    font-size: 1.1rem;
+    text-align: left;
+}
+
+.todo-actions {
+    display: flex;
+}
+
+.edit-btn {
+    padding: 5px 15px;
+    font-size: 0.9rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.delete-btn {
+    padding: 5px 15px;
+    font-size: 0.9rem;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
