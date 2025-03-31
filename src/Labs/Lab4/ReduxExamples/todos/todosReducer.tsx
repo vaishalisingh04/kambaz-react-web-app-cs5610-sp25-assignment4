@@ -1,11 +1,19 @@
 import { createSlice } from "@reduxjs/toolkit";
-const initialState = {
+import { Todo } from "./types"; // Import the Todo interface
+
+interface TodoState {
+  todos: Todo[];
+  todo: Partial<Todo>;
+}
+
+const initialState: TodoState = {
   todos: [
     { id: "1", title: "Learn React" },
     { id: "2", title: "Learn Node" },
   ],
   todo: { title: "Learn Mongo" },
 };
+
 const todosSlice = createSlice({
   name: "todos",
   initialState,
@@ -24,7 +32,7 @@ const todosSlice = createSlice({
     },
     updateTodo: (state, action) => {
       const newTodos = state.todos.map((item) =>
-        item.id === action.payload.id ? action.payload : item
+          item.id === action.payload.id ? action.payload : item
       );
       state.todos = newTodos;
       state.todo = { title: "" };
@@ -34,5 +42,7 @@ const todosSlice = createSlice({
     },
   },
 });
+
 export const { addTodo, deleteTodo, updateTodo, setTodo } = todosSlice.actions;
+
 export default todosSlice.reducer;
