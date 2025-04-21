@@ -1,0 +1,66 @@
+// quiz_submissions.json
+[
+  {
+    "_id": "QS1",
+    "quizId": "Q101",
+    "user": "234",          // dark_knight (STUDENT)
+    "attempt": 1,
+    "answers": [
+      { "questionId": "Q101-1", "answer": "C1" },
+      { "questionId": "Q101-2", "answer": true },
+      { "questionId": "Q101-3", "answer": "liquid‑propellant" }
+    ],
+    "score": 15,
+    "submittedAt": "2023-02-14T14:23:00.000Z"
+  },
+  {
+    "_id": "QS2",
+    "quizId": "Q101",
+    "user": "456",          // thor_odinson (STUDENT)
+    "attempt": 1,
+    "answers": [
+      { "questionId": "Q101-1", "answer": "C2" },
+      { "questionId": "Q101-2", "answer": false },
+      { "questionId": "Q101-3", "answer": "liquid‑propellant" }
+    ],
+    "score": 7,             // only Q101-3 correct (7 pts)
+    "submittedAt": "2023-02-15T10:05:00.000Z"
+  },
+  {
+    "_id": "QS3",
+    "quizId": "Q101",
+    "user": "567",          // hulk_smash (STUDENT)
+    "attempt": 1,
+    "answers": [
+      { "questionId": "Q101-1", "answer": "C1" },
+      { "questionId": "Q101-2", "answer": true },
+      { "questionId": "Q101-3", "answer": "propellant" }
+    ],
+    "score": 8,             // Q101-1 (5) + Q101-2 (3)
+    "submittedAt": "2023-02-15T16:42:00.000Z"
+  },
+  {
+    "_id": "QS4",
+    "quizId": "Q102",
+    "user": "234",          // dark_knight (STUDENT)
+    "attempt": 1,
+    "answers": [
+      { "questionId": "Q102-1", "answer": "C3" },
+      { "questionId": "Q102-2", "answer": true }
+    ],
+    "score": 7,             // 4 + 3
+    "submittedAt": "2023-03-05T11:30:00.000Z"
+  },
+  {
+    "_id": "QS5",
+    "quizId": "Q102",
+    "user": "890",          // elf_archer (STUDENT)
+    "attempt": 1,
+    "answers": [
+      { "questionId": "Q102-1", "answer": "C1" },
+      { "questionId": "Q102-2", "answer": false }
+    ],
+    "score": 0,
+    "submittedAt": "2023-03-06T09:15:00.000Z"
+  }
+]
