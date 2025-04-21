@@ -1,0 +1,99 @@
+[
+  {
+    "_id": "Q101",
+    "course": "RS101",                     
+    "title": "Introduction to Rocketry Quiz",
+    "description": "Assess your grasp of early rocketry history and fundamentals.",
+    "quizType": "Graded Quiz",
+    "assignmentGroup": "Quizzes",
+    "shuffleAnswers": true,
+    "timeLimit": 20,
+    "multipleAttempts": false,
+    "allowedAttempts": 1,
+    "showCorrectAnswers": true,
+    "accessCode": "",
+    "oneQuestionAtATime": true,
+    "webcamRequired": false,
+    "lockQuestionsAfterAnswering": false,
+    "availableDate": "2023-02-01T00:00:00.000Z",
+    "dueDate":       "2023-02-15T23:59:59.000Z",
+    "untilDate":     "2023-02-20T23:59:59.000Z",
+    "published": true,
+    "createdBy": "123",    // Tony Stark (FACULTY)
+    "questions": [
+      {
+        "id": "Q101-1",
+        "type": "multipleChoice",
+        "title": "First Liquid‑Propellant Rocket",
+        "points": 5,
+        "question": "Who launched the first liquid‑propellant rocket?",
+        "choices": [
+          { "id": "C1", "text": "Robert Goddard",         "correct": true },
+          { "id": "C2", "text": "Konstantin Tsiolkovsky", "correct": false },
+          { "id": "C3", "text": "Hermann Oberth",         "correct": false }
+        ]
+      },
+      {
+        "id": "Q101-2",
+        "type": "trueFalse",
+        "title": "Tsiolkovsky’s Rocket Equation",
+        "points": 3,
+        "question": "Konstantin Tsiolkovsky first published his rocket equation in 1903.",
+        "correctAnswer": true
+      },
+      {
+        "id": "Q101-3",
+        "type": "fillInBlank",
+        "title": "Engine Type",
+        "points": 7,
+        "question": "The ____ engine uses both liquid fuel and liquid oxidizer stored separately.",
+        "blanks": [ "liquid‑propellant", "liquid propellant" ]
+      }
+    ]
+  },
+  {
+    "_id": "Q102",
+    "course": "RS102",
+    "title": "Subsonic vs. Supersonic Flow Quiz",
+    "description": "Test distinctions between subsonic and supersonic regimes.",
+    "quizType": "Practice Quiz",
+    "assignmentGroup": "Quizzes",
+    "shuffleAnswers": false,
+    "timeLimit": 15,
+    "multipleAttempts": true,
+    "allowedAttempts": 3,
+    "showCorrectAnswers": false,
+    "accessCode": "AERO123",
+    "oneQuestionAtATime": false,
+    "webcamRequired": false,
+    "lockQuestionsAfterAnswering": true,
+    "availableDate": "2023-03-01T00:00:00.000Z",
+    "dueDate":       "2023-03-10T23:59:59.000Z",
+    "untilDate":     "2023-03-15T23:59:59.000Z",
+    "published": true,
+    "createdBy": "678",    // Frodo Baggins (FACULTY)
+    "questions": [
+      {
+        "id": "Q102-1",
+        "type": "multipleChoice",
+        "title": "Mach Number Definition",
+        "points": 4,
+        "question": "A Mach number greater than 1 indicates:",
+        "choices": [
+          { "id": "C1", "text": "Subsonic flow",   "correct": false },
+          { "id": "C2", "text": "Transonic flow",  "correct": false },
+          { "id": "C3", "text": "Supersonic flow", "correct": true },
+          { "id": "C4", "text": "Hypersonic flow", "correct": false }
+        ]
+      },
+      {
+        "id": "Q102-2",
+        "type": "trueFalse",
+        "title": "Shock Waves",
+        "points": 3,
+        "question": "Shock waves can only exist in supersonic flow.",
+        "correctAnswer": true
+      }
+    ]
+  }
+]
